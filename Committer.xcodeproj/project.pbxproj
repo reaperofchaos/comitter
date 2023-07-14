@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300FC6972A58D2D300FA998C /* CommitterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6962A58D2D300FA998C /* CommitterApp.swift */; };
+		300FC6992A58D2D300FA998C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6982A58D2D300FA998C /* ContentView.swift */; };
+		300FC69B2A58D2D400FA998C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300FC69A2A58D2D400FA998C /* Assets.xcassets */; };
+		300FC69E2A58D2D400FA998C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300FC69D2A58D2D400FA998C /* Preview Assets.xcassets */; };
+		300FC6A02A58D2D400FA998C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC69F2A58D2D400FA998C /* Persistence.swift */; };
+		300FC6A32A58D2D400FA998C /* Committer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6A12A58D2D400FA998C /* Committer.xcdatamodeld */; };
+		300FC6AC2A58D33700FA998C /* CommitTypeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6AB2A58D33700FA998C /* CommitTypeSelector.swift */; };
+		300FC6AE2A58D78C00FA998C /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6AD2A58D78C00FA998C /* Title.swift */; };
+		300FC6B02A58D8CE00FA998C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6AF2A58D8CE00FA998C /* MainView.swift */; };
+		300FC6B32A58DA3A00FA998C /* UserStorySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6B22A58DA3A00FA998C /* UserStorySelector.swift */; };
+		300FC6B52A58DBA300FA998C /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6B42A58DBA300FA998C /* CreateButton.swift */; };
+		300FC6B72A58DD2F00FA998C /* CommitMessagetextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6B62A58DD2F00FA998C /* CommitMessagetextField.swift */; };
+		300FC6B92A58E34000FA998C /* MessagePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6B82A58E34000FA998C /* MessagePreview.swift */; };
+		300FC6BB2A58F2D200FA998C /* CommitButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6BA2A58F2D200FA998C /* CommitButton.swift */; };
+		300FC6BE2A58F98300FA998C /* ShellHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6BD2A58F98300FA998C /* ShellHelpers.swift */; };
+		300FC6C02A58FFC700FA998C /* OutputMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6BF2A58FFC700FA998C /* OutputMessage.swift */; };
+		300FC6C22A590C5500FA998C /* FileHandlerHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6C12A590C5500FA998C /* FileHandlerHelpers.swift */; };
+		30740F782A59BD8000410E8C /* DirectoryHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F772A59BD8000410E8C /* DirectoryHelpers.swift */; };
+		30740F7A2A59BE1100410E8C /* DirectorySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F792A59BE1100410E8C /* DirectorySelector.swift */; };
+		30740F7D2A59D36400410E8C /* CommitFileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F7C2A59D36400410E8C /* CommitFileData.swift */; };
+		30740F7F2A59D51B00410E8C /* ParserHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F7E2A59D51B00410E8C /* ParserHelpers.swift */; };
+		30740F812A59DF8A00410E8C /* CommitFileDataForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F802A59DF8A00410E8C /* CommitFileDataForm.swift */; };
+		30740F842A5A2E0A00410E8C /* Entities.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30740F822A5A2E0A00410E8C /* Entities.xcdatamodeld */; };
+		30740F872A5A2F0700410E8C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F862A5A2F0700410E8C /* DataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300FC6932A58D2D300FA998C /* Committer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Committer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300FC6962A58D2D300FA998C /* CommitterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitterApp.swift; sourceTree = "<group>"; };
+		300FC6982A58D2D300FA998C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		300FC69A2A58D2D400FA998C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300FC69D2A58D2D400FA998C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		300FC69F2A58D2D400FA998C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		300FC6A22A58D2D400FA998C /* Committer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Committer.xcdatamodel; sourceTree = "<group>"; };
+		300FC6A42A58D2D400FA998C /* Committer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Committer.entitlements; sourceTree = "<group>"; };
+		300FC6AB2A58D33700FA998C /* CommitTypeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitTypeSelector.swift; sourceTree = "<group>"; };
+		300FC6AD2A58D78C00FA998C /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		300FC6AF2A58D8CE00FA998C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		300FC6B22A58DA3A00FA998C /* UserStorySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStorySelector.swift; sourceTree = "<group>"; };
+		300FC6B42A58DBA300FA998C /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
+		300FC6B62A58DD2F00FA998C /* CommitMessagetextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitMessagetextField.swift; sourceTree = "<group>"; };
+		300FC6B82A58E34000FA998C /* MessagePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
+		300FC6BA2A58F2D200FA998C /* CommitButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitButton.swift; sourceTree = "<group>"; };
+		300FC6BD2A58F98300FA998C /* ShellHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellHelpers.swift; sourceTree = "<group>"; };
+		300FC6BF2A58FFC700FA998C /* OutputMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputMessage.swift; sourceTree = "<group>"; };
+		300FC6C12A590C5500FA998C /* FileHandlerHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHandlerHelpers.swift; sourceTree = "<group>"; };
+		300FC6C32A5911E600FA998C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		30740F772A59BD8000410E8C /* DirectoryHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryHelpers.swift; sourceTree = "<group>"; };
+		30740F792A59BE1100410E8C /* DirectorySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorySelector.swift; sourceTree = "<group>"; };
+		30740F7C2A59D36400410E8C /* CommitFileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitFileData.swift; sourceTree = "<group>"; };
+		30740F7E2A59D51B00410E8C /* ParserHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserHelpers.swift; sourceTree = "<group>"; };
+		30740F802A59DF8A00410E8C /* CommitFileDataForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitFileDataForm.swift; sourceTree = "<group>"; };
+		30740F832A5A2E0A00410E8C /* Entities.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Entities.xcdatamodel; sourceTree = "<group>"; };
+		30740F862A5A2F0700410E8C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300FC6902A58D2D300FA998C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300FC68A2A58D2D300FA998C = {
+			isa = PBXGroup;
+			children = (
+				300FC6952A58D2D300FA998C /* Committer */,
+				300FC6942A58D2D300FA998C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		300FC6942A58D2D300FA998C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300FC6932A58D2D300FA998C /* Committer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300FC6952A58D2D300FA998C /* Committer */ = {
+			isa = PBXGroup;
+			children = (
+				30740F852A5A2EF700410E8C /* Controllers */,
+				30740F7B2A59D34000410E8C /* DataTypes */,
+				300FC6BC2A58F96A00FA998C /* Utils */,
+				300FC6AA2A58D2E600FA998C /* Views */,
+				300FC6962A58D2D300FA998C /* CommitterApp.swift */,
+				300FC6982A58D2D300FA998C /* ContentView.swift */,
+				300FC69A2A58D2D400FA998C /* Assets.xcassets */,
+				300FC69F2A58D2D400FA998C /* Persistence.swift */,
+				300FC6A42A58D2D400FA998C /* Committer.entitlements */,
+				300FC6A12A58D2D400FA998C /* Committer.xcdatamodeld */,
+				300FC69C2A58D2D400FA998C /* Preview Content */,
+				300FC6C32A5911E600FA998C /* Config.xcconfig */,
+				30740F822A5A2E0A00410E8C /* Entities.xcdatamodeld */,
+			);
+			path = Committer;
+			sourceTree = "<group>";
+		};
+		300FC69C2A58D2D400FA998C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				300FC69D2A58D2D400FA998C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		300FC6AA2A58D2E600FA998C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				300FC6B12A58D96C00FA998C /* MainView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		300FC6B12A58D96C00FA998C /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				300FC6AB2A58D33700FA998C /* CommitTypeSelector.swift */,
+				300FC6AD2A58D78C00FA998C /* Title.swift */,
+				300FC6AF2A58D8CE00FA998C /* MainView.swift */,
+				30740F802A59DF8A00410E8C /* CommitFileDataForm.swift */,
+				30740F792A59BE1100410E8C /* DirectorySelector.swift */,
+				300FC6B22A58DA3A00FA998C /* UserStorySelector.swift */,
+				300FC6B42A58DBA300FA998C /* CreateButton.swift */,
+				300FC6B62A58DD2F00FA998C /* CommitMessagetextField.swift */,
+				300FC6B82A58E34000FA998C /* MessagePreview.swift */,
+				300FC6BA2A58F2D200FA998C /* CommitButton.swift */,
+				300FC6BF2A58FFC700FA998C /* OutputMessage.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		300FC6BC2A58F96A00FA998C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				300FC6BD2A58F98300FA998C /* ShellHelpers.swift */,
+				300FC6C12A590C5500FA998C /* FileHandlerHelpers.swift */,
+				30740F772A59BD8000410E8C /* DirectoryHelpers.swift */,
+				30740F7E2A59D51B00410E8C /* ParserHelpers.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		30740F7B2A59D34000410E8C /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				30740F7C2A59D36400410E8C /* CommitFileData.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		30740F852A5A2EF700410E8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				30740F862A5A2F0700410E8C /* DataController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		300FC6922A58D2D300FA998C /* Committer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300FC6A72A58D2D400FA998C /* Build configuration list for PBXNativeTarget "Committer" */;
+			buildPhases = (
+				300FC68F2A58D2D300FA998C /* Sources */,
+				300FC6902A58D2D300FA998C /* Frameworks */,
+				300FC6912A58D2D300FA998C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Committer;
+			productName = Committer;
+			productReference = 300FC6932A58D2D300FA998C /* Committer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300FC68B2A58D2D300FA998C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					300FC6922A58D2D300FA998C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 300FC68E2A58D2D300FA998C /* Build configuration list for PBXProject "Committer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300FC68A2A58D2D300FA998C;
+			productRefGroup = 300FC6942A58D2D300FA998C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300FC6922A58D2D300FA998C /* Committer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300FC6912A58D2D300FA998C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300FC69E2A58D2D400FA998C /* Preview Assets.xcassets in Resources */,
+				300FC69B2A58D2D400FA998C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300FC68F2A58D2D300FA998C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300FC6BE2A58F98300FA998C /* ShellHelpers.swift in Sources */,
+				300FC6A02A58D2D400FA998C /* Persistence.swift in Sources */,
+				300FC6B92A58E34000FA998C /* MessagePreview.swift in Sources */,
+				300FC6C22A590C5500FA998C /* FileHandlerHelpers.swift in Sources */,
+				300FC6BB2A58F2D200FA998C /* CommitButton.swift in Sources */,
+				30740F872A5A2F0700410E8C /* DataController.swift in Sources */,
+				30740F842A5A2E0A00410E8C /* Entities.xcdatamodeld in Sources */,
+				300FC6B02A58D8CE00FA998C /* MainView.swift in Sources */,
+				30740F812A59DF8A00410E8C /* CommitFileDataForm.swift in Sources */,
+				30740F7F2A59D51B00410E8C /* ParserHelpers.swift in Sources */,
+				300FC6992A58D2D300FA998C /* ContentView.swift in Sources */,
+				30740F782A59BD8000410E8C /* DirectoryHelpers.swift in Sources */,
+				300FC6B32A58DA3A00FA998C /* UserStorySelector.swift in Sources */,
+				300FC6B72A58DD2F00FA998C /* CommitMessagetextField.swift in Sources */,
+				300FC6B52A58DBA300FA998C /* CreateButton.swift in Sources */,
+				300FC6A32A58D2D400FA998C /* Committer.xcdatamodeld in Sources */,
+				30740F7D2A59D36400410E8C /* CommitFileData.swift in Sources */,
+				300FC6C02A58FFC700FA998C /* OutputMessage.swift in Sources */,
+				30740F7A2A59BE1100410E8C /* DirectorySelector.swift in Sources */,
+				300FC6972A58D2D300FA998C /* CommitterApp.swift in Sources */,
+				300FC6AE2A58D78C00FA998C /* Title.swift in Sources */,
+				300FC6AC2A58D33700FA998C /* CommitTypeSelector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		300FC6A52A58D2D400FA998C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		300FC6A62A58D2D400FA998C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		300FC6A82A58D2D400FA998C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_KEY = "$(API_KEY)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Committer/Committer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development: jacobconner@swva.net (D96RNH44RK)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Committer/Preview Content\"";
+				DEVELOPMENT_TEAM = 47483NHZFX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Committer/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = jacobconner.Committer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				test = "";
+			};
+			name = Debug;
+		};
+		300FC6A92A58D2D400FA998C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				API_KEY = "$(API_KEY)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Committer/Committer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development: jacobconner@swva.net (D96RNH44RK)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Committer/Preview Content\"";
+				DEVELOPMENT_TEAM = 47483NHZFX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Committer/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = jacobconner.Committer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				test = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300FC68E2A58D2D300FA998C /* Build configuration list for PBXProject "Committer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300FC6A52A58D2D400FA998C /* Debug */,
+				300FC6A62A58D2D400FA998C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300FC6A72A58D2D400FA998C /* Build configuration list for PBXNativeTarget "Committer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300FC6A82A58D2D400FA998C /* Debug */,
+				300FC6A92A58D2D400FA998C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		300FC6A12A58D2D400FA998C /* Committer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				300FC6A22A58D2D400FA998C /* Committer.xcdatamodel */,
+			);
+			currentVersion = 300FC6A22A58D2D400FA998C /* Committer.xcdatamodel */;
+			path = Committer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		30740F822A5A2E0A00410E8C /* Entities.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30740F832A5A2E0A00410E8C /* Entities.xcdatamodel */,
+			);
+			currentVersion = 30740F832A5A2E0A00410E8C /* Entities.xcdatamodel */;
+			path = Entities.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 300FC68B2A58D2D300FA998C /* Project object */;
+}
