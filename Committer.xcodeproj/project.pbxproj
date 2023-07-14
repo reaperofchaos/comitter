@@ -24,6 +24,8 @@
 		300FC6BE2A58F98300FA998C /* ShellHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6BD2A58F98300FA998C /* ShellHelpers.swift */; };
 		300FC6C02A58FFC700FA998C /* OutputMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6BF2A58FFC700FA998C /* OutputMessage.swift */; };
 		300FC6C22A590C5500FA998C /* FileHandlerHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300FC6C12A590C5500FA998C /* FileHandlerHelpers.swift */; };
+		30528D022A61F365008FA875 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30528D012A61F365008FA875 /* File.swift */; };
+		30528D042A61F414008FA875 /* keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30528D032A61F414008FA875 /* keys.swift */; };
 		30740F782A59BD8000410E8C /* DirectoryHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F772A59BD8000410E8C /* DirectoryHelpers.swift */; };
 		30740F7A2A59BE1100410E8C /* DirectorySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F792A59BE1100410E8C /* DirectorySelector.swift */; };
 		30740F7D2A59D36400410E8C /* CommitFileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30740F7C2A59D36400410E8C /* CommitFileData.swift */; };
@@ -54,6 +56,8 @@
 		300FC6BF2A58FFC700FA998C /* OutputMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputMessage.swift; sourceTree = "<group>"; };
 		300FC6C12A590C5500FA998C /* FileHandlerHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHandlerHelpers.swift; sourceTree = "<group>"; };
 		300FC6C32A5911E600FA998C /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		30528D012A61F365008FA875 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		30528D032A61F414008FA875 /* keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keys.swift; sourceTree = "<group>"; };
 		30740F772A59BD8000410E8C /* DirectoryHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryHelpers.swift; sourceTree = "<group>"; };
 		30740F792A59BE1100410E8C /* DirectorySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectorySelector.swift; sourceTree = "<group>"; };
 		30740F7C2A59D36400410E8C /* CommitFileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitFileData.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		300FC68A2A58D2D300FA998C = {
 			isa = PBXGroup;
 			children = (
+				30528D032A61F414008FA875 /* keys.swift */,
 				300FC6952A58D2D300FA998C /* Committer */,
 				300FC6942A58D2D300FA998C /* Products */,
 			);
@@ -93,6 +98,7 @@
 		300FC6952A58D2D300FA998C /* Committer */ = {
 			isa = PBXGroup;
 			children = (
+				30528D002A61F358008FA875 /* Queries */,
 				30740F852A5A2EF700410E8C /* Controllers */,
 				30740F7B2A59D34000410E8C /* DataTypes */,
 				300FC6BC2A58F96A00FA998C /* Utils */,
@@ -153,6 +159,14 @@
 				30740F7E2A59D51B00410E8C /* ParserHelpers.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		30528D002A61F358008FA875 /* Queries */ = {
+			isa = PBXGroup;
+			children = (
+				30528D012A61F365008FA875 /* File.swift */,
+			);
+			path = Queries;
 			sourceTree = "<group>";
 		};
 		30740F7B2A59D34000410E8C /* DataTypes */ = {
@@ -247,8 +261,10 @@
 				300FC6C22A590C5500FA998C /* FileHandlerHelpers.swift in Sources */,
 				300FC6BB2A58F2D200FA998C /* CommitButton.swift in Sources */,
 				30740F872A5A2F0700410E8C /* DataController.swift in Sources */,
+				30528D022A61F365008FA875 /* File.swift in Sources */,
 				30740F842A5A2E0A00410E8C /* Entities.xcdatamodeld in Sources */,
 				300FC6B02A58D8CE00FA998C /* MainView.swift in Sources */,
+				30528D042A61F414008FA875 /* keys.swift in Sources */,
 				30740F812A59DF8A00410E8C /* CommitFileDataForm.swift in Sources */,
 				30740F7F2A59D51B00410E8C /* ParserHelpers.swift in Sources */,
 				300FC6992A58D2D300FA998C /* ContentView.swift in Sources */,
